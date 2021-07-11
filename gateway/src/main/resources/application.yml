@@ -1,0 +1,21 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes:
+        - id: system
+          uri: http://localhost:9001
+          predicates:
+            - Path=/system/** #请求路径过滤
+            #- Method=GET  # 通过请求方式进行匹配
+            #- Query=name  # 通过参数进行匹配，表示请求中一定要有name参数才会进行转发
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
