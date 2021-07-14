@@ -48,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/src/main/resources/generator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -56,19 +56,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/server/src/main/resources/generator" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/src/main/resources/config" />
       <recent name="$PROJECT_DIR$/server/src/main/resources" />
-      <recent name="$PROJECT_DIR$/server/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$/gateway/src/main/resources" />
-      <recent name="$PROJECT_DIR$/system/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hjc.system" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/server/src/main/resources/config" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin" />
+      <recent name="$PROJECT_DIR$/server/src/main/resources/generator" />
       <recent name="$PROJECT_DIR$/server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/server/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/gateway/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -176,7 +176,7 @@
       <workItem from="1625751271755" duration="1557000" />
       <workItem from="1625928369784" duration="61000" />
       <workItem from="1625990588578" duration="8581000" />
-      <workItem from="1626266559227" duration="499000" />
+      <workItem from="1626266559227" duration="1046000" />
     </task>
     <servers />
   </component>
@@ -275,5 +275,9 @@
       <screen x="0" y="25" width="1280" height="722" />
     </state>
     <state x="305" y="71" width="670" height="676" key="search.everywhere.popup/0.25.1280.722@0.25.1280.722" timestamp="1625577926041" />
+    <state x="370" y="226" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1626267243142">
+      <screen x="0" y="25" width="1280" height="722" />
+    </state>
+    <state x="370" y="226" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.25.1280.722@0.25.1280.722" timestamp="1626267243142" />
   </component>
 </project>
