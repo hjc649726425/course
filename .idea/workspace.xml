@@ -48,27 +48,33 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/server/src/main/resources/config" />
-      <recent name="$PROJECT_DIR$/server/src/main/resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hjc.system" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/admin" />
       <recent name="$PROJECT_DIR$/server/src/main/resources/generator" />
       <recent name="$PROJECT_DIR$/server/src/main/resources" />
       <recent name="$PROJECT_DIR$/server/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$/gateway/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hjc.system" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/src/main/resources/config" />
+      <recent name="$PROJECT_DIR$/server/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -177,6 +183,9 @@
       <workItem from="1625928369784" duration="61000" />
       <workItem from="1625990588578" duration="8581000" />
       <workItem from="1626266559227" duration="1046000" />
+      <workItem from="1626267772394" duration="329000" />
+      <workItem from="1626268134515" duration="437000" />
+      <workItem from="1626268661398" duration="2746000" />
     </task>
     <servers />
   </component>
@@ -184,6 +193,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="503" y="300" key="#ESLint" timestamp="1626271430905">
+      <screen x="0" y="25" width="1280" height="722" />
+    </state>
+    <state x="503" y="300" key="#ESLint/0.25.1280.722@0.25.1280.722" timestamp="1626271430905" />
     <state x="517" y="252" key="#Notifications" timestamp="1625490688632">
       <screen x="0" y="25" width="1280" height="722" />
     </state>
@@ -200,26 +213,26 @@
       <screen x="0" y="25" width="1280" height="722" />
     </state>
     <state x="423" y="179" key="#com.intellij.ide.util.TreeClassChooserDialog/0.25.1280.722@0.25.1280.722" timestamp="1625991287731" />
-    <state width="844" height="176" key="GridCell.Tab.0.bottom" timestamp="1626011198340">
+    <state width="1236" height="176" key="GridCell.Tab.0.bottom" timestamp="1626271424350">
       <screen x="0" y="25" width="1280" height="722" />
     </state>
     <state width="844" height="176" key="GridCell.Tab.0.bottom/0.25.1280.721@0.25.1280.721" timestamp="1625150954127" />
-    <state width="844" height="176" key="GridCell.Tab.0.bottom/0.25.1280.722@0.25.1280.722" timestamp="1626011198340" />
-    <state width="844" height="176" key="GridCell.Tab.0.center" timestamp="1626011198339">
+    <state width="1236" height="176" key="GridCell.Tab.0.bottom/0.25.1280.722@0.25.1280.722" timestamp="1626271424350" />
+    <state width="1236" height="176" key="GridCell.Tab.0.center" timestamp="1626271424350">
       <screen x="0" y="25" width="1280" height="722" />
     </state>
     <state width="844" height="176" key="GridCell.Tab.0.center/0.25.1280.721@0.25.1280.721" timestamp="1625150954126" />
-    <state width="844" height="176" key="GridCell.Tab.0.center/0.25.1280.722@0.25.1280.722" timestamp="1626011198339" />
-    <state width="844" height="176" key="GridCell.Tab.0.left" timestamp="1626011198338">
+    <state width="1236" height="176" key="GridCell.Tab.0.center/0.25.1280.722@0.25.1280.722" timestamp="1626271424350" />
+    <state width="1236" height="176" key="GridCell.Tab.0.left" timestamp="1626271424349">
       <screen x="0" y="25" width="1280" height="722" />
     </state>
     <state width="844" height="176" key="GridCell.Tab.0.left/0.25.1280.721@0.25.1280.721" timestamp="1625150954125" />
-    <state width="844" height="176" key="GridCell.Tab.0.left/0.25.1280.722@0.25.1280.722" timestamp="1626011198338" />
-    <state width="844" height="176" key="GridCell.Tab.0.right" timestamp="1626011198339">
+    <state width="1236" height="176" key="GridCell.Tab.0.left/0.25.1280.722@0.25.1280.722" timestamp="1626271424349" />
+    <state width="1236" height="176" key="GridCell.Tab.0.right" timestamp="1626271424350">
       <screen x="0" y="25" width="1280" height="722" />
     </state>
     <state width="844" height="176" key="GridCell.Tab.0.right/0.25.1280.721@0.25.1280.721" timestamp="1625150954127" />
-    <state width="844" height="176" key="GridCell.Tab.0.right/0.25.1280.722@0.25.1280.722" timestamp="1626011198339" />
+    <state width="1236" height="176" key="GridCell.Tab.0.right/0.25.1280.722@0.25.1280.722" timestamp="1626271424350" />
     <state width="844" height="176" key="GridCell.Tab.1.bottom" timestamp="1626011198343">
       <screen x="0" y="25" width="1280" height="722" />
     </state>
@@ -252,15 +265,15 @@
       <screen x="0" y="25" width="1280" height="721" />
     </state>
     <state x="178" y="43" key="Maven.ArtifactSearchDialog/0.25.1280.721@0.25.1280.721" timestamp="1625058438270" />
-    <state x="149" y="25" width="982" height="722" key="SettingsEditor" timestamp="1625997635188">
+    <state x="149" y="25" width="982" height="722" key="SettingsEditor" timestamp="1626269254340">
       <screen x="0" y="25" width="1280" height="722" />
     </state>
     <state x="149" y="25" width="982" height="721" key="SettingsEditor/0.25.1280.721@0.25.1280.721" timestamp="1625058532954" />
-    <state x="149" y="25" width="982" height="722" key="SettingsEditor/0.25.1280.722@0.25.1280.722" timestamp="1625997635188" />
-    <state x="341" y="142" width="597" height="486" key="find.popup" timestamp="1625992317587">
+    <state x="149" y="25" width="982" height="722" key="SettingsEditor/0.25.1280.722@0.25.1280.722" timestamp="1626269254340" />
+    <state x="341" y="142" width="597" height="486" key="find.popup" timestamp="1626269081749">
       <screen x="0" y="25" width="1280" height="722" />
     </state>
-    <state x="341" y="142" width="597" height="486" key="find.popup/0.25.1280.722@0.25.1280.722" timestamp="1625992317587" />
+    <state x="341" y="142" width="597" height="486" key="find.popup/0.25.1280.722@0.25.1280.722" timestamp="1626269081749" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1625993397276">
       <screen x="0" y="25" width="1280" height="722" />
     </state>
@@ -275,9 +288,9 @@
       <screen x="0" y="25" width="1280" height="722" />
     </state>
     <state x="305" y="71" width="670" height="676" key="search.everywhere.popup/0.25.1280.722@0.25.1280.722" timestamp="1625577926041" />
-    <state x="370" y="226" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1626267243142">
+    <state x="370" y="226" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1626270863406">
       <screen x="0" y="25" width="1280" height="722" />
     </state>
-    <state x="370" y="226" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.25.1280.722@0.25.1280.722" timestamp="1626267243142" />
+    <state x="370" y="226" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.25.1280.722@0.25.1280.722" timestamp="1626270863406" />
   </component>
 </project>
