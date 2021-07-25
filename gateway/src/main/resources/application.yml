@@ -13,6 +13,10 @@ spring:
             - Path=/system/** #请求路径过滤
             #- Method=GET  # 通过请求方式进行匹配
             #- Query=name  # 通过参数进行匹配，表示请求中一定要有name参数才会进行转发
+        - id: business
+            uri: lb://business
+            predicates:
+              - Path=/business/** #请求路径过滤
 
 eureka:
   client:
