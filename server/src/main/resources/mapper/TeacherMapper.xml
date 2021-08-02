@@ -69,7 +69,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    id, `name`, nickname, image, `position`, motto, intro
+    id, name, nickname, image, position, motto, intro
   </sql>
   <select id="selectByExample" parameterType="com.hjc.server.domain.TeacherExample" resultMap="BaseResultMap">
     select
@@ -102,8 +102,8 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.hjc.server.domain.Teacher">
-    insert into teacher (id, `name`, nickname, 
-      image, `position`, motto, 
+    insert into teacher (id, name, nickname, 
+      image, position, motto, 
       intro)
     values (#{id,jdbcType=CHAR}, #{name,jdbcType=VARCHAR}, #{nickname,jdbcType=VARCHAR}, 
       #{image,jdbcType=VARCHAR}, #{position,jdbcType=VARCHAR}, #{motto,jdbcType=VARCHAR}, 
@@ -116,7 +116,7 @@
         id,
       </if>
       <if test="name != null">
-        `name`,
+        name,
       </if>
       <if test="nickname != null">
         nickname,
@@ -125,7 +125,7 @@
         image,
       </if>
       <if test="position != null">
-        `position`,
+        position,
       </if>
       <if test="motto != null">
         motto,
@@ -171,7 +171,7 @@
         id = #{record.id,jdbcType=CHAR},
       </if>
       <if test="record.name != null">
-        `name` = #{record.name,jdbcType=VARCHAR},
+        name = #{record.name,jdbcType=VARCHAR},
       </if>
       <if test="record.nickname != null">
         nickname = #{record.nickname,jdbcType=VARCHAR},
@@ -180,7 +180,7 @@
         image = #{record.image,jdbcType=VARCHAR},
       </if>
       <if test="record.position != null">
-        `position` = #{record.position,jdbcType=VARCHAR},
+        position = #{record.position,jdbcType=VARCHAR},
       </if>
       <if test="record.motto != null">
         motto = #{record.motto,jdbcType=VARCHAR},
@@ -196,10 +196,10 @@
   <update id="updateByExample" parameterType="map">
     update teacher
     set id = #{record.id,jdbcType=CHAR},
-      `name` = #{record.name,jdbcType=VARCHAR},
+      name = #{record.name,jdbcType=VARCHAR},
       nickname = #{record.nickname,jdbcType=VARCHAR},
       image = #{record.image,jdbcType=VARCHAR},
-      `position` = #{record.position,jdbcType=VARCHAR},
+      position = #{record.position,jdbcType=VARCHAR},
       motto = #{record.motto,jdbcType=VARCHAR},
       intro = #{record.intro,jdbcType=VARCHAR}
     <if test="_parameter != null">
@@ -210,7 +210,7 @@
     update teacher
     <set>
       <if test="name != null">
-        `name` = #{name,jdbcType=VARCHAR},
+        name = #{name,jdbcType=VARCHAR},
       </if>
       <if test="nickname != null">
         nickname = #{nickname,jdbcType=VARCHAR},
@@ -219,7 +219,7 @@
         image = #{image,jdbcType=VARCHAR},
       </if>
       <if test="position != null">
-        `position` = #{position,jdbcType=VARCHAR},
+        position = #{position,jdbcType=VARCHAR},
       </if>
       <if test="motto != null">
         motto = #{motto,jdbcType=VARCHAR},
@@ -232,10 +232,10 @@
   </update>
   <update id="updateByPrimaryKey" parameterType="com.hjc.server.domain.Teacher">
     update teacher
-    set `name` = #{name,jdbcType=VARCHAR},
+    set name = #{name,jdbcType=VARCHAR},
       nickname = #{nickname,jdbcType=VARCHAR},
       image = #{image,jdbcType=VARCHAR},
-      `position` = #{position,jdbcType=VARCHAR},
+      position = #{position,jdbcType=VARCHAR},
       motto = #{motto,jdbcType=VARCHAR},
       intro = #{intro,jdbcType=VARCHAR}
     where id = #{id,jdbcType=CHAR}

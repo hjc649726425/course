@@ -3,14 +3,14 @@ package com.hjc.server.domain;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ChapterExample {
+public class CategoryExample {
     protected String orderByClause;
 
     protected boolean distinct;
 
     protected List<Criteria> oredCriteria;
 
-    public ChapterExample() {
+    public CategoryExample() {
         oredCriteria = new ArrayList<Criteria>();
     }
 
@@ -174,73 +174,73 @@ public class ChapterExample {
             return (Criteria) this;
         }
 
-        public Criteria andCourseIdIsNull() {
-            addCriterion("course_id is null");
+        public Criteria andParentIsNull() {
+            addCriterion("parent is null");
             return (Criteria) this;
         }
 
-        public Criteria andCourseIdIsNotNull() {
-            addCriterion("course_id is not null");
+        public Criteria andParentIsNotNull() {
+            addCriterion("parent is not null");
             return (Criteria) this;
         }
 
-        public Criteria andCourseIdEqualTo(String value) {
-            addCriterion("course_id =", value, "courseId");
+        public Criteria andParentEqualTo(String value) {
+            addCriterion("parent =", value, "parent");
             return (Criteria) this;
         }
 
-        public Criteria andCourseIdNotEqualTo(String value) {
-            addCriterion("course_id <>", value, "courseId");
+        public Criteria andParentNotEqualTo(String value) {
+            addCriterion("parent <>", value, "parent");
             return (Criteria) this;
         }
 
-        public Criteria andCourseIdGreaterThan(String value) {
-            addCriterion("course_id >", value, "courseId");
+        public Criteria andParentGreaterThan(String value) {
+            addCriterion("parent >", value, "parent");
             return (Criteria) this;
         }
 
-        public Criteria andCourseIdGreaterThanOrEqualTo(String value) {
-            addCriterion("course_id >=", value, "courseId");
+        public Criteria andParentGreaterThanOrEqualTo(String value) {
+            addCriterion("parent >=", value, "parent");
             return (Criteria) this;
         }
 
-        public Criteria andCourseIdLessThan(String value) {
-            addCriterion("course_id <", value, "courseId");
+        public Criteria andParentLessThan(String value) {
+            addCriterion("parent <", value, "parent");
             return (Criteria) this;
         }
 
-        public Criteria andCourseIdLessThanOrEqualTo(String value) {
-            addCriterion("course_id <=", value, "courseId");
+        public Criteria andParentLessThanOrEqualTo(String value) {
+            addCriterion("parent <=", value, "parent");
             return (Criteria) this;
         }
 
-        public Criteria andCourseIdLike(String value) {
-            addCriterion("course_id like", value, "courseId");
+        public Criteria andParentLike(String value) {
+            addCriterion("parent like", value, "parent");
             return (Criteria) this;
         }
 
-        public Criteria andCourseIdNotLike(String value) {
-            addCriterion("course_id not like", value, "courseId");
+        public Criteria andParentNotLike(String value) {
+            addCriterion("parent not like", value, "parent");
             return (Criteria) this;
         }
 
-        public Criteria andCourseIdIn(List<String> values) {
-            addCriterion("course_id in", values, "courseId");
+        public Criteria andParentIn(List<String> values) {
+            addCriterion("parent in", values, "parent");
             return (Criteria) this;
         }
 
-        public Criteria andCourseIdNotIn(List<String> values) {
-            addCriterion("course_id not in", values, "courseId");
+        public Criteria andParentNotIn(List<String> values) {
+            addCriterion("parent not in", values, "parent");
             return (Criteria) this;
         }
 
-        public Criteria andCourseIdBetween(String value1, String value2) {
-            addCriterion("course_id between", value1, value2, "courseId");
+        public Criteria andParentBetween(String value1, String value2) {
+            addCriterion("parent between", value1, value2, "parent");
             return (Criteria) this;
         }
 
-        public Criteria andCourseIdNotBetween(String value1, String value2) {
-            addCriterion("course_id not between", value1, value2, "courseId");
+        public Criteria andParentNotBetween(String value1, String value2) {
+            addCriterion("parent not between", value1, value2, "parent");
             return (Criteria) this;
         }
 
@@ -311,6 +311,66 @@ public class ChapterExample {
 
         public Criteria andNameNotBetween(String value1, String value2) {
             addCriterion("name not between", value1, value2, "name");
+            return (Criteria) this;
+        }
+
+        public Criteria andSortIsNull() {
+            addCriterion("sort is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andSortIsNotNull() {
+            addCriterion("sort is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andSortEqualTo(Integer value) {
+            addCriterion("sort =", value, "sort");
+            return (Criteria) this;
+        }
+
+        public Criteria andSortNotEqualTo(Integer value) {
+            addCriterion("sort <>", value, "sort");
+            return (Criteria) this;
+        }
+
+        public Criteria andSortGreaterThan(Integer value) {
+            addCriterion("sort >", value, "sort");
+            return (Criteria) this;
+        }
+
+        public Criteria andSortGreaterThanOrEqualTo(Integer value) {
+            addCriterion("sort >=", value, "sort");
+            return (Criteria) this;
+        }
+
+        public Criteria andSortLessThan(Integer value) {
+            addCriterion("sort <", value, "sort");
+            return (Criteria) this;
+        }
+
+        public Criteria andSortLessThanOrEqualTo(Integer value) {
+            addCriterion("sort <=", value, "sort");
+            return (Criteria) this;
+        }
+
+        public Criteria andSortIn(List<Integer> values) {
+            addCriterion("sort in", values, "sort");
+            return (Criteria) this;
+        }
+
+        public Criteria andSortNotIn(List<Integer> values) {
+            addCriterion("sort not in", values, "sort");
+            return (Criteria) this;
+        }
+
+        public Criteria andSortBetween(Integer value1, Integer value2) {
+            addCriterion("sort between", value1, value2, "sort");
+            return (Criteria) this;
+        }
+
+        public Criteria andSortNotBetween(Integer value1, Integer value2) {
+            addCriterion("sort not between", value1, value2, "sort");
             return (Criteria) this;
         }
     }

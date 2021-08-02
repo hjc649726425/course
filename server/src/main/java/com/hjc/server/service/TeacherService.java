@@ -2,8 +2,8 @@ package com.hjc.server.service;
 
 import com.hjc.server.domain.Teacher;
 import com.hjc.server.domain.TeacherExample;
-import com.hjc.server.dto.TeacherDto;
 import com.hjc.server.dto.PageDto;
+import com.hjc.server.dto.TeacherDto;
 import com.hjc.server.mapper.TeacherMapper;
 import com.hjc.server.util.CopyUtil;
 import com.hjc.server.util.UuidUtil;
@@ -20,6 +20,15 @@ public class TeacherService {
 
     @Resource
     private TeacherMapper teacherMapper;
+
+    /**
+     * 列表查询
+     */
+    public List<TeacherDto> all() {
+        TeacherExample teacherExample = new TeacherExample();
+        List<Teacher> teacherList = teacherMapper.selectByExample(teacherExample);
+        return CopyUtil.copyList(teacherList, TeacherDto.class);
+    }
 
     /**
      * 列表查询
@@ -66,5 +75,14 @@ public class TeacherService {
      */
     public void delete(String id) {
         teacherMapper.deleteByPrimaryKey(id);
+    }
+
+    /**
+     * 查找
+     * @param id
+     */
+    public TeacherDto findById(String id) {
+        Teacher teacher = teacherMapper.selectByPrimaryKey(id);
+        return CopyUtil.copy(teacher, TeacherDto.class);
     }
 }

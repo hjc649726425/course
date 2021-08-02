@@ -1,12 +1,13 @@
 package com.hjc.server.dto;
 
-import java.util.Date;
 import com.fasterxml.jackson.annotation.JsonFormat;
+
+import java.util.Date;
 
 public class SectionDto {
 
     /**
-     * id
+     * ID
      */
     private String id;
 
@@ -21,7 +22,7 @@ public class SectionDto {
     private String courseId;
 
     /**
-     * 大章|chapter.id
+     * 章|chapter.id
      */
     private String chapterId;
 
@@ -57,9 +58,6 @@ public class SectionDto {
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Date updatedAt;
 
-    /**
-     * vod|阿里云vod
-     */
     private String vod;
 
     public String getId() {
@@ -150,25 +148,21 @@ public class SectionDto {
         this.vod = vod;
     }
 
-
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append(" [");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", id=").append(id);
-        sb.append(", title=").append(title);
-        sb.append(", courseId=").append(courseId);
-        sb.append(", chapterId=").append(chapterId);
-        sb.append(", video=").append(video);
+        final StringBuffer sb = new StringBuffer("SectionDto{");
+        sb.append("id='").append(id).append('\'');
+        sb.append(", title='").append(title).append('\'');
+        sb.append(", courseId='").append(courseId).append('\'');
+        sb.append(", chapterId='").append(chapterId).append('\'');
+        sb.append(", video='").append(video).append('\'');
         sb.append(", time=").append(time);
-        sb.append(", charge=").append(charge);
+        sb.append(", charge='").append(charge).append('\'');
         sb.append(", sort=").append(sort);
         sb.append(", createdAt=").append(createdAt);
         sb.append(", updatedAt=").append(updatedAt);
-        sb.append(", vod=").append(vod);
-        sb.append("]");
+        sb.append(", vod='").append(vod).append('\'');
+        sb.append('}');
         return sb.toString();
     }
 

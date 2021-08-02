@@ -1,7 +1,5 @@
 package com.hjc.server.service;
 
-import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
 import com.hjc.server.domain.Chapter;
 import com.hjc.server.domain.ChapterExample;
 import com.hjc.server.dto.ChapterDto;
@@ -9,12 +7,15 @@ import com.hjc.server.dto.ChapterPageDto;
 import com.hjc.server.mapper.ChapterMapper;
 import com.hjc.server.util.CopyUtil;
 import com.hjc.server.util.UuidUtil;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
-
 
 import javax.annotation.Resource;
 import java.util.List;
 
+@Service
 public class ChapterService {
 
     @Resource
@@ -82,4 +83,3 @@ public class ChapterService {
         return chapterDtoList;
     }
 }
-

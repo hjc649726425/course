@@ -1,32 +1,22 @@
 package com.hjc.server.dto;
 
 
-public class CourseContentFileDto {
+public class CourseCategoryDto {
 
     /**
-     * ID
+     * id
      */
     private String id;
 
     /**
-     * 课程ID
+     * 课程|course.id
      */
     private String courseId;
 
     /**
-     * 地址
+     * 分类|course.id
      */
-    private String url;
-
-    /**
-     * 文件名
-     */
-    private String name;
-
-    /**
-     * 大小|字节B
-     */
-    private Integer size;
+    private String categoryId;
 
     public String getId() {
         return id;
@@ -44,28 +34,12 @@ public class CourseContentFileDto {
         this.courseId = courseId;
     }
 
-    public String getUrl() {
-        return url;
+    public String getCategoryId() {
+        return categoryId;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Integer getSize() {
-        return size;
-    }
-
-    public void setSize(Integer size) {
-        this.size = size;
+    public void setCategoryId(String categoryId) {
+        this.categoryId = categoryId;
     }
 
 
@@ -77,9 +51,7 @@ public class CourseContentFileDto {
         sb.append("Hash = ").append(hashCode());
         sb.append(", id=").append(id);
         sb.append(", courseId=").append(courseId);
-        sb.append(", url=").append(url);
-        sb.append(", name=").append(name);
-        sb.append(", size=").append(size);
+        sb.append(", categoryId=").append(categoryId);
         sb.append("]");
         return sb.toString();
     }

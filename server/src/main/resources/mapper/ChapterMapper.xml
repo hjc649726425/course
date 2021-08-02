@@ -65,7 +65,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    id, course_id, `name`
+    id, course_id, name
   </sql>
   <select id="selectByExample" parameterType="com.hjc.server.domain.ChapterExample" resultMap="BaseResultMap">
     select
@@ -98,7 +98,7 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.hjc.server.domain.Chapter">
-    insert into chapter (id, course_id, `name`)
+    insert into chapter (id, course_id, name)
     values (#{id,jdbcType=CHAR}, #{courseId,jdbcType=CHAR}, #{name,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.hjc.server.domain.Chapter">
@@ -111,7 +111,7 @@
         course_id,
       </if>
       <if test="name != null">
-        `name`,
+        name,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
@@ -142,7 +142,7 @@
         course_id = #{record.courseId,jdbcType=CHAR},
       </if>
       <if test="record.name != null">
-        `name` = #{record.name,jdbcType=VARCHAR},
+        name = #{record.name,jdbcType=VARCHAR},
       </if>
     </set>
     <if test="_parameter != null">
@@ -153,7 +153,7 @@
     update chapter
     set id = #{record.id,jdbcType=CHAR},
       course_id = #{record.courseId,jdbcType=CHAR},
-      `name` = #{record.name,jdbcType=VARCHAR}
+      name = #{record.name,jdbcType=VARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -165,7 +165,7 @@
         course_id = #{courseId,jdbcType=CHAR},
       </if>
       <if test="name != null">
-        `name` = #{name,jdbcType=VARCHAR},
+        name = #{name,jdbcType=VARCHAR},
       </if>
     </set>
     where id = #{id,jdbcType=CHAR}
@@ -173,7 +173,7 @@
   <update id="updateByPrimaryKey" parameterType="com.hjc.server.domain.Chapter">
     update chapter
     set course_id = #{courseId,jdbcType=CHAR},
-      `name` = #{name,jdbcType=VARCHAR}
+      name = #{name,jdbcType=VARCHAR}
     where id = #{id,jdbcType=CHAR}
   </update>
 </mapper>

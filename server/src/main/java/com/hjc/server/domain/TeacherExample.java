@@ -175,72 +175,72 @@ public class TeacherExample {
         }
 
         public Criteria andNameIsNull() {
-            addCriterion("`name` is null");
+            addCriterion("name is null");
             return (Criteria) this;
         }
 
         public Criteria andNameIsNotNull() {
-            addCriterion("`name` is not null");
+            addCriterion("name is not null");
             return (Criteria) this;
         }
 
         public Criteria andNameEqualTo(String value) {
-            addCriterion("`name` =", value, "name");
+            addCriterion("name =", value, "name");
             return (Criteria) this;
         }
 
         public Criteria andNameNotEqualTo(String value) {
-            addCriterion("`name` <>", value, "name");
+            addCriterion("name <>", value, "name");
             return (Criteria) this;
         }
 
         public Criteria andNameGreaterThan(String value) {
-            addCriterion("`name` >", value, "name");
+            addCriterion("name >", value, "name");
             return (Criteria) this;
         }
 
         public Criteria andNameGreaterThanOrEqualTo(String value) {
-            addCriterion("`name` >=", value, "name");
+            addCriterion("name >=", value, "name");
             return (Criteria) this;
         }
 
         public Criteria andNameLessThan(String value) {
-            addCriterion("`name` <", value, "name");
+            addCriterion("name <", value, "name");
             return (Criteria) this;
         }
 
         public Criteria andNameLessThanOrEqualTo(String value) {
-            addCriterion("`name` <=", value, "name");
+            addCriterion("name <=", value, "name");
             return (Criteria) this;
         }
 
         public Criteria andNameLike(String value) {
-            addCriterion("`name` like", value, "name");
+            addCriterion("name like", value, "name");
             return (Criteria) this;
         }
 
         public Criteria andNameNotLike(String value) {
-            addCriterion("`name` not like", value, "name");
+            addCriterion("name not like", value, "name");
             return (Criteria) this;
         }
 
         public Criteria andNameIn(List<String> values) {
-            addCriterion("`name` in", values, "name");
+            addCriterion("name in", values, "name");
             return (Criteria) this;
         }
 
         public Criteria andNameNotIn(List<String> values) {
-            addCriterion("`name` not in", values, "name");
+            addCriterion("name not in", values, "name");
             return (Criteria) this;
         }
 
         public Criteria andNameBetween(String value1, String value2) {
-            addCriterion("`name` between", value1, value2, "name");
+            addCriterion("name between", value1, value2, "name");
             return (Criteria) this;
         }
 
         public Criteria andNameNotBetween(String value1, String value2) {
-            addCriterion("`name` not between", value1, value2, "name");
+            addCriterion("name not between", value1, value2, "name");
             return (Criteria) this;
         }
 
@@ -385,72 +385,72 @@ public class TeacherExample {
         }
 
         public Criteria andPositionIsNull() {
-            addCriterion("`position` is null");
+            addCriterion("position is null");
             return (Criteria) this;
         }
 
         public Criteria andPositionIsNotNull() {
-            addCriterion("`position` is not null");
+            addCriterion("position is not null");
             return (Criteria) this;
         }
 
         public Criteria andPositionEqualTo(String value) {
-            addCriterion("`position` =", value, "position");
+            addCriterion("position =", value, "position");
             return (Criteria) this;
         }
 
         public Criteria andPositionNotEqualTo(String value) {
-            addCriterion("`position` <>", value, "position");
+            addCriterion("position <>", value, "position");
             return (Criteria) this;
         }
 
         public Criteria andPositionGreaterThan(String value) {
-            addCriterion("`position` >", value, "position");
+            addCriterion("position >", value, "position");
             return (Criteria) this;
         }
 
         public Criteria andPositionGreaterThanOrEqualTo(String value) {
-            addCriterion("`position` >=", value, "position");
+            addCriterion("position >=", value, "position");
             return (Criteria) this;
         }
 
         public Criteria andPositionLessThan(String value) {
-            addCriterion("`position` <", value, "position");
+            addCriterion("position <", value, "position");
             return (Criteria) this;
         }
 
         public Criteria andPositionLessThanOrEqualTo(String value) {
-            addCriterion("`position` <=", value, "position");
+            addCriterion("position <=", value, "position");
             return (Criteria) this;
         }
 
         public Criteria andPositionLike(String value) {
-            addCriterion("`position` like", value, "position");
+            addCriterion("position like", value, "position");
             return (Criteria) this;
         }
 
         public Criteria andPositionNotLike(String value) {
-            addCriterion("`position` not like", value, "position");
+            addCriterion("position not like", value, "position");
             return (Criteria) this;
         }
 
         public Criteria andPositionIn(List<String> values) {
-            addCriterion("`position` in", values, "position");
+            addCriterion("position in", values, "position");
             return (Criteria) this;
         }
 
         public Criteria andPositionNotIn(List<String> values) {
-            addCriterion("`position` not in", values, "position");
+            addCriterion("position not in", values, "position");
             return (Criteria) this;
         }
 
         public Criteria andPositionBetween(String value1, String value2) {
-            addCriterion("`position` between", value1, value2, "position");
+            addCriterion("position between", value1, value2, "position");
             return (Criteria) this;
         }
 
         public Criteria andPositionNotBetween(String value1, String value2) {
-            addCriterion("`position` not between", value1, value2, "position");
+            addCriterion("position not between", value1, value2, "position");
             return (Criteria) this;
         }
 
